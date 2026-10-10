@@ -1,0 +1,30 @@
+# ═══════════ DEPENDENCIES ═══════════
+node_modules
+
+# ═══════════ ENV FILES (CRITICAL) ═══════════
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ═══════════ UPLOADS ═══════════
+uploads/
+uploads/images/
+uploads/documents/
+
+# ═══════════ LOGS ═══════════
+logs
+*.log
+npm-debug.log*
+
+# ═══════════ EDITOR ═══════════
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
